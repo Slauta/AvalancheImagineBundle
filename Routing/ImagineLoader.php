@@ -25,7 +25,7 @@ class ImagineLoader extends Loader
 
     public function load($resource, $type = null)
     {
-        $requirements = array('_method' => 'GET', 'filter' => '[A-z0-9_\-]*', 'path' => '.+');
+        $requirements = array('filter' => '[A-z0-9_\-]*', 'path' => '.+');
         $defaults     = array('_controller' => 'imagine.controller:filter');
         $routes       = new RouteCollection();
 
