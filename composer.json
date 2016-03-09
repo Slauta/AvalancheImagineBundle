@@ -1,5 +1,5 @@
 {
-    "name": "zylor69/imagine-bundle",
+    "name": "resomedia/avalancheimaginebundle",
     "description": "Image manipulation using Imagine and Twig Filters.",
     "keywords": ["image manipulation", "imagine"],
     "homepage": "https://github.com/avalanche123/AvalancheImagineBundle",
