@@ -2,6 +2,7 @@
 
 namespace Avalanche\Bundle\ImagineBundle\Imagine;
 
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\RouterInterface;
 
@@ -46,9 +47,9 @@ class CachePathResolver
             return $path;
         }
 
-        $type = $this->router->ABSOLUTEURL;
+        $type = UrlGeneratorInterface::ABSOLUTE_PATH;
         if($absolute == true){
-            $type = $this->router->ABSOLUTE_PATH;
+            $type = UrlGeneratorInterface::ABSOLUTE_URL;
         }
         
         $path = str_replace(
