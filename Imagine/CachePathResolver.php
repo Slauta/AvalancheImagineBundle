@@ -52,14 +52,20 @@ class CachePathResolver
         if (!0 === strpos($realPath, $this->sourceRoot)) {
             return $path;
         }
-
+        
+        $type = $this->router->ABSOLUTEURL;
+        if($absolute == true){
+            $type = $this->router->ABSOLUTE_PATH;
+        }
+        
         $path = str_replace(
             urlencode(ltrim($path, '/')),
             urldecode(ltrim($path, '/')),
             $this->router->generate('_imagine_'.$filter, array(
                 'path' => ltrim($path, '/')
-            ), $absolute)
+            ), $type)
         );
+        
         
         $cached = realpath($this->webRoot.$path);
 

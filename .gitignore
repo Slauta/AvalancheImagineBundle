@@ -1,0 +1,7 @@
+/nbproject/
+composer.phar
+/build.properties
+/.settings/
+*.log
+/.idea/*
+*.idea/*
