@@ -27,7 +27,7 @@ Installation is a quick 3 step process:
 Add AvalancheImagineBundle in your composer.json:
 
 ```sh
-composer require slauta/avalanche-imagine-bundle
+composer require slauta/avalanche123-imagine-bundle
 ```
 
 Composer will install the bundle to your project's `vendor/avalanche123/imagine-bundle` directory.
