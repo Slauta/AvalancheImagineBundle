@@ -1,14 +1,14 @@
 {
-    "name": "resomedia/avalancheimaginebundle",
+    "name": "slauta/avalanche123-imagine-bundle",
     "description": "Image manipulation using Imagine and Twig Filters.",
     "keywords": ["image manipulation", "imagine"],
-    "homepage": "https://github.com/avalanche123/AvalancheImagineBundle",
+    "homepage": "https://github.com/Slauta/AvalancheImagineBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "repositories":[
         {
             "type":"git",
-            "url":"git://github.com/avalanche123/Imagine.git"
+            "url":"git://github.com/Slauta/AvalancheImagineBundle.git"
         }
     ],
 
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "2.*",
+        "symfony/framework-bundle": "3.*",
         "imagine/Imagine": "v0.5.0"
     },
     "require-dev": {
