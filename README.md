@@ -1,9 +1,4 @@
-Deprecated
-==========
-
-This project is no longer actively maintained, please find one of the populate forks. Thanks!
-
-AvalancheImagineBundle
+AvalancheImagineBundle for Symfony 3.0
 ======================
 
 This bundle provides easy image manipulation support for Symfony2. For example,
